@@ -22,7 +22,7 @@ import datedelta
 from flask import current_app
 from sqlalchemy.exc import OperationalError, ResourceClosedError
 from sqlalchemy.ext.hybrid import hybrid_property
-from sqlalchemy.orm import backref, load_only, lazyload
+from sqlalchemy.orm import backref
 
 from legal_api.exceptions import BusinessException
 from legal_api.utils.base import BaseEnum
